@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RVBacpDNqzytpPETRtk4BAo3W8IG4XYPQyI6Lx9b7r4dLndM+HYZB+vkPHZhecSs0AkTSqkUPkvI1sBo0kdK4Q==",
+  "dgSpecHash": "21tplt6FK+iUXqvtuYPD3vidPLiVf2OQdfwD+Snx6K7FOy67naRD3mHRtCbYJjfe3wRZ+VZrwduknYlc6mre6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Qvand\\source\\repos\\ShowcaseServer\\ShowcaseServer\\ShowcaseServer.csproj",
+  "projectFilePath": "C:\\Users\\Qvand\\source\\repos\\ShowCaseServer\\ShowcaseServer\\ShowcaseServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Qvand\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Qvand\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

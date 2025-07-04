@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Qvand\\source\\repos\\ShowcaseServer\\ShowcaseServer\\ShowcaseServer.csproj": {}
+    "C:\\Users\\Qvand\\source\\repos\\ShowCaseServer\\ShowcaseServer\\ShowcaseServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Qvand\\source\\repos\\ShowcaseServer\\ShowcaseServer\\ShowcaseServer.csproj": {
+    "C:\\Users\\Qvand\\source\\repos\\ShowCaseServer\\ShowcaseServer\\ShowcaseServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Qvand\\source\\repos\\ShowcaseServer\\ShowcaseServer\\ShowcaseServer.csproj",
+        "projectUniqueName": "C:\\Users\\Qvand\\source\\repos\\ShowCaseServer\\ShowcaseServer\\ShowcaseServer.csproj",
         "projectName": "ShowcaseServer",
-        "projectPath": "C:\\Users\\Qvand\\source\\repos\\ShowcaseServer\\ShowcaseServer\\ShowcaseServer.csproj",
+        "projectPath": "C:\\Users\\Qvand\\source\\repos\\ShowCaseServer\\ShowcaseServer\\ShowcaseServer.csproj",
         "packagesPath": "C:\\Users\\Qvand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Qvand\\source\\repos\\ShowcaseServer\\ShowcaseServer\\obj\\",
+        "outputPath": "C:\\Users\\Qvand\\source\\repos\\ShowCaseServer\\ShowcaseServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

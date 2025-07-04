@@ -50,7 +50,6 @@ namespace ShowcaseServer.Controllers
             else
             {
                 Mailer.Send(mail);
-                //Console.WriteLine("Hier ben ik");
                 return Content("Het verzenden is gelukt");
             }
 
