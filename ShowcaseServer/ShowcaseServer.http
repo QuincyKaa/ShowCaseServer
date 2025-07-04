@@ -1,0 +1,6 @@
+@ShowcaseServer_HostAddress = http://localhost:5014
+
+GET {{ShowcaseServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2b7nykbRYxcFwV8R2JG1n9iDyNZJYwVlwYtiOiwclYE=",
+  "Source": "ShowcaseServer",
+  "BasePath": "_content/ShowcaseServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
