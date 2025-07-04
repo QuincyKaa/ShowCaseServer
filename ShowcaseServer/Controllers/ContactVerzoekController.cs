@@ -54,8 +54,5 @@ namespace ShowcaseServer.Controllers
             }
 
         }
-
-        [HttpGet]
-        public IActionResult Get() => Content("Backend werkt!");
     }
 }
