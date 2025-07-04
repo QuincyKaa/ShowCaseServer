@@ -2,6 +2,7 @@ name: Update dependencies
 on: 
   schedule:
     - cron: '0 9 * * 6' # elke zaterdag @ AM 9:00
+  workflow_dispatch: 
 
 
 jobs:
