@@ -12,7 +12,7 @@ builder.Services.AddCors(options =>
         policy
         .WithOrigins("http://localhost:4080")  // Alleen frontend poort
         .AllowAnyHeader()
-        .AllowAnyMethod();
+        .WithMethods("POST");
     });
 });
 // Add services to the container.
@@ -30,8 +30,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-//app.UseHttpsRedirection();
 
 app.UseCors();
 

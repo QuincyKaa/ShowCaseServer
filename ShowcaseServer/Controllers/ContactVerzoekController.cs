@@ -45,7 +45,7 @@ namespace ShowcaseServer.Controllers
         {
             if (ValidateForm(mail) != true)
             {
-                return Content("Het verzenden is niet gelukt, probeer het later opnieuw VANAF SERVER");
+                return Content("Het verzenden is niet gelukt, probeer het later opnieuw");
             }
             else
             {
