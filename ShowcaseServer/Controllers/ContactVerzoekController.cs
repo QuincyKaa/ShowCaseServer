@@ -52,12 +52,20 @@ namespace ShowcaseServer.Controllers
             {
                 return Content("Het verzenden is niet gelukt, probeer het later opnieuw");
             }
+            if (ContainsMaliciousInput(mail.Body.Subject) || ContainsMaliciousInput(mail.Body.Message))
+            {
+                return BadRequest("Het verzenden is niet gelukt, probeer het later opnieuw");
+            }
             else
             {
                 Mailer.Send(mail);
                 return Content("Het verzenden is gelukt");
             }
-
+        }
+        private bool ContainsMaliciousInput(string input)
+        {
+            string lowered = input.ToLower();
+            return lowered.Contains("function") || lowered.Contains("while(true)") || lowered.Contains("eval(");
         }
     }
 }
