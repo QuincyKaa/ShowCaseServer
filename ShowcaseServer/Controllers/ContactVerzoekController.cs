@@ -65,7 +65,15 @@ namespace ShowcaseServer.Controllers
         private bool ContainsMaliciousInput(string input)
         {
             string lowered = input.ToLower();
-            return lowered.Contains("function") || lowered.Contains("while(true)") || lowered.Contains("eval(");
+            return lowered.Contains("function") ||
+                    lowered.Contains("while(true)") ||
+                    lowered.Contains("eval(") ||
+                    lowered.Contains(".test(") ||
+                    lowered.Contains("regex") ||
+                    lowered.Contains("<script") ||
+                    lowered.Contains("</script>") ||
+                    lowered.Contains("onerror=") ||
+                    lowered.Contains("onload=");
         }
     }
 }
