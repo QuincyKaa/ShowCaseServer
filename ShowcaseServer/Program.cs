@@ -11,7 +11,7 @@ builder.Services.AddCors(options =>
     {
         policy
         .WithOrigins("http://localhost:4080")  // Alleen frontend poort
-        .AllowAnyHeader()
+        .WithHeaders("Content-Type", "API-Key")
         .WithMethods("POST");
     });
 });

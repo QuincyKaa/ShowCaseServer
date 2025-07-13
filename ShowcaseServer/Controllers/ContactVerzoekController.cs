@@ -43,8 +43,8 @@ namespace ShowcaseServer.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] Mail mail)
         {
-            string apiKey = Request.Headers["API-Key"].FirstOrDefault();
-            if (apiKey != "Test123")
+            var apiKey = Request.Headers["API-Key"].FirstOrDefault();
+            if (apiKey != "re58oWajrf")
             {
                 return Content("Het verzenden is niet gelukt, probeer het later opnieuw");
             }
